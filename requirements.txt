@@ -1,6 +1,6 @@
 setuptools==65.5.0
 streamlit==1.41.0
-crewai==0.28.8
+crewai==0.30.11
 litellm==1.40.0
 yfinance==0.2.48
 pandas==2.2.3
