@@ -1,16 +1,10 @@
-# Versões fixas e testadas
-streamlit==1.25.0
-crewai==0.30.11
+# Versão SUPER estável do CrewAI
+crewai==0.1.0
+streamlit==1.28.0
 groq==0.4.0
 python-dotenv==1.0.0
 yfinance==0.2.28
-pandas==1.5.3
-plotly==5.14.1
+pandas==2.0.3
+plotly==5.17.0
 setuptools==69.5.1
-numpy==1.24.3
-
-# Forçando versões antigas do rich e dependências
 rich==13.7.0
-markdown-it-py==2.2.0
-pygments==2.15.0
-mdurl==0.1.2
