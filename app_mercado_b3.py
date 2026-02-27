@@ -21,7 +21,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import yfinance as yf
 from dotenv import load_dotenv
-from crewai import Agent, Task, Crew, LLM
+from crewai import Agent, Task, Crew
 from groq import Groq
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
