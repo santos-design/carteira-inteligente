@@ -8,3 +8,4 @@ plotly==5.17.0
 setuptools==69.5.1
 typing-extensions==4.8.0
 rich==13.7.0
+reportlab==4.0.4  ← ADICIONE ESTA LINHA
