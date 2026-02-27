@@ -1,3 +1,4 @@
+setuptools==69.5.1
 streamlit==1.41.0
 crewai==0.98.0
 litellm==1.59.8
@@ -11,5 +12,4 @@ groq==0.13.0
 reportlab==4.4.10
 python-telegram-bot==22.6
 numpy==1.26.4
-setuptools>=70.0.0
 rich>=13.9.4,<14.0.0
