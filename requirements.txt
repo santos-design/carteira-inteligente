@@ -1,5 +1,4 @@
-# Versão SUPER estável do CrewAI
-crewai==0.1.0
+crewai==0.30.0
 streamlit==1.28.0
 groq==0.4.0
 python-dotenv==1.0.0
@@ -8,3 +7,5 @@ pandas==2.0.3
 plotly==5.17.0
 setuptools==69.5.1
 rich==13.7.0
+pydantic==2.5.0
+typing-extensions==4.5.0
