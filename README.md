@@ -1,12 +1,21 @@
 # 📊 Carteira Inteligente
 
-> Plataforma de análise semanal de carteira de investimentos com Inteligência Artificial, dados reais da B3, Bitcoin, correlações de mercado e alertas automáticos.
-
+[![Streamlit App](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://carteira-inteligente.streamlit.app)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.41+-red?style=flat-square&logo=streamlit)
 ![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent-purple?style=flat-square)
 ![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3_70B-orange?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+> Plataforma de análise semanal de carteira de investimentos com Inteligência Artificial, dados reais da B3, Bitcoin, correlações de mercado e alertas automáticos.
+
+---
+
+## 🚀 Acesse o App Online
+
+👉 [**Clique aqui para abrir o Carteira Inteligente**](https://carteira-inteligente.streamlit.app)
+
+O app está hospedado gratuitamente no **Streamlit Cloud** e pode ser acessado de qualquer lugar!
 
 ---
 
@@ -106,95 +115,3 @@ echo 'GROQ_API_KEY=sua_chave_aqui' > .env
 
 # 5. Execute o app
 streamlit run app_mercado_b3.py
-```
-
-Acesse em: `http://localhost:8501`
-
----
-
-## ☁️ Deploy no Streamlit Cloud (gratuito)
-
-1. Faça fork deste repositório no GitHub
-2. Acesse [share.streamlit.io](https://share.streamlit.io) e conecte o repositório
-3. Em **Advanced Settings → Secrets**, adicione:
-```toml
-GROQ_API_KEY = "sua_chave_aqui"
-```
-4. Clique em **Deploy** — link público gerado automaticamente!
-
----
-
-## 📬 Configurar Telegram Bot
-
-1. No Telegram, fale com [@BotFather](https://t.me/botfather) → `/newbot`
-2. Copie o **Token** gerado
-3. Fale com [@userinfobot](https://t.me/userinfobot) para obter seu **Chat ID**
-4. Cole os dois na barra lateral do app e clique em **Enviar pelo Telegram**
-
----
-
-## 📧 Configurar E-mail Gmail
-
-1. Acesse [myaccount.google.com](https://myaccount.google.com) → Segurança → **Senhas de app**
-2. Gere uma senha de app para "Mail"
-3. Use essa senha (não a senha normal) no campo da barra lateral
-
----
-
-## 🤖 Arquitetura de IA
-
-```
-Dados do Mercado (yfinance)
-         ↓
-  ┌─────────────────────────┐
-  │  Agente 1: Analista CNPI │
-  │  Panorama + Correlações  │
-  │  Altas, Baixas, Setores  │
-  └──────────┬──────────────┘
-             ↓
-  ┌──────────────────────────────┐
-  │  Agente 2: Consultor CFP/CEA  │
-  │  Recomendações por perfil     │
-  │  Cenários otimista/pessimista │
-  └──────────┬───────────────────┘
-             ↓
-  ┌──────────────────────────────┐
-  │  Agente 3: Sentimento        │
-  │  Score por notícia            │
-  │  Impacto curto/longo prazo   │
-  └──────────┬───────────────────┘
-             ↓
-  ┌──────────────────────────────┐
-  │  Agente 4: Resultados        │
-  │  Avaliação trimestral        │
-  │  Impacto curto/médio/longo   │
-  └──────────┬───────────────────┘
-             ↓
-    PDF + Telegram + E-mail
-```
-
----
-
-## 📊 Carteira Monitorada
-
-| Ticker | Empresa | Setor |
-|--------|---------|-------|
-| CXSE3 | Caixa Seguridade | Seguros & Financeiro |
-| RANI3 | Irani | Papel & Embalagens |
-| TAEE3 | Taesa | Energia Elétrica |
-| CSAN3 | Cosan | Energia & Logística |
-| BBAS3 | Banco do Brasil | Financeiro |
-| PETR3 | Petrobras | Petróleo & Gás |
-| BTC | Bitcoin | Criptomoeda |
-
----
-
-## ⚠️ Disclaimer
-
-Projeto desenvolvido para fins **educacionais e de portfólio**. Os relatórios gerados pela IA não constituem consultoria financeira oficial. Sempre consulte um profissional certificado antes de tomar decisões de investimento.
-
----
-
-<div align="center">
-Desenvolvido com ❤️ usando Python, CrewAI e Groq LLaMA 3.3
-</div>
