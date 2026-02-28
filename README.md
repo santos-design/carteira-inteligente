@@ -13,8 +13,7 @@
 
 ## 🚀 Acesse o App Online
 
-👉 [**Clique aqui para abrir o Carteira Inteligente**](https://carteira-inteligente.streamlit.app)
-
+👉 [**Clique aqui para abrir o Carteira Inteligente**](https://carteira-inteligente-eqltnj6wpx2adug42yabd5.streamlit.app)
 O app está hospedado gratuitamente no **Streamlit Cloud** e pode ser acessado de qualquer lugar!
 
 ---
